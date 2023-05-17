@@ -1,6 +1,21 @@
 # **NLPBanking**
 Created by Kaden Oseen
 
+NLP Banking is a client-server banking system that allows users to perform various banking operations using natural language processing (NLP) capabilities. It provides an interface through the terminal, enabling users to interact with their bank accounts securely and conveniently.
+
+## **Features**
+- Secure Connection: The application establishes a secure connection between the client and server using Transport Layer Security (TLS), ensuring the confidentiality and integrity of the communication.
+- User Authentication: Users can create accounts, log in securely, and perform banking operations using their unique credentials.
+- Account Management: Users can view their account balance, deposit funds, withdraw funds, and transfer money to other users.
+- Transaction History: Users can view their transaction history, providing a comprehensive record of their banking activities.
+- Natural Language Processing: The application utilizes NLP techniques to process user input and interpret commands, providing an intuitive and conversational user experience.
+- Error Handling: The application handles various errors and edge cases, providing informative error messages to users and ensuring the reliability of the system.
+
+### Technologies Used
+- C++: The application is developed using C++ programming language, leveraging its efficiency and flexibility.
+- OpenSSL: OpenSSL library is used for implementing secure TLS communication between the client and server.
+- JSON: JSON format is employed for exchanging data between the client and server, ensuring compatibility and ease of parsing.
+- Linux Sockets: The application utilizes Linux sockets to establish network connections between the client and server.
 
 ## **Client-Side**
 ### *Requirements*
